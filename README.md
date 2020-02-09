@@ -3,4 +3,4 @@
 # Scss practise
 
 This will utilize basic HTML markup along with Scss. 
-Some Tweening will include:, opacity:, delay:, height:, ease:.
+Some Tweening will include:, opacity, height, delay, scaling, easing.
