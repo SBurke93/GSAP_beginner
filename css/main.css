@@ -1,0 +1,87 @@
+/**** FONTS *****/
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+/**** COLOR VARS ****/
+/****** MIXINS ******/
+/**** GENERAL ******/
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 9em;
+}
+
+h1 {
+  font-size: 4em;
+  width: 35%;
+  color: #6216D7;
+  line-height: 1em;
+  border-bottom: 3px solid #262626;
+}
+
+button {
+  background: none;
+  border: 1px solid black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.7em;
+  padding: .5em 1em;
+  letter-spacing: .03em;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover, button:active {
+  background-color: #242424;
+  color: white;
+}
+
+button:active {
+  -webkit-box-shadow: -3px -3px 6px #fff, 3px 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: -3px -3px 6px #fff, 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+/***** IMPORTANT *****/
+.panel {
+  position: absolute;
+  width: 55%;
+  bottom: 0;
+  right: 0;
+  background: #EAEAEA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15% 7%;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+}
+
+.panel img {
+  width: 170px;
+  float: left;
+  margin-left: 50px;
+  margin-right: 30px;
+  opacity: 0;
+  -webkit-transform: translateY(-200px);
+          transform: translateY(-200px);
+}
+
+.panel p {
+  font-style: italic;
+  font-size: 1.4em;
+  padding-left: 5px;
+  width: 80%;
+  opacity: 0;
+}
+
+.panel .box {
+  border: 5px solid lightgray;
+  width: 55%;
+  height: 40%;
+  position: absolute;
+  left: -7%;
+  top: 19%;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+/*# sourceMappingURL=main.css.map */
